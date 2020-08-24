@@ -1,0 +1,12 @@
+C:\Users\humph\source\repos\MathMethodExercise\MathMethodExercise\bin\Debug\netcoreapp3.1\MathMethodExercise.exe
+C:\Users\humph\source\repos\MathMethodExercise\MathMethodExercise\bin\Debug\netcoreapp3.1\MathMethodExercise.deps.json
+C:\Users\humph\source\repos\MathMethodExercise\MathMethodExercise\bin\Debug\netcoreapp3.1\MathMethodExercise.runtimeconfig.json
+C:\Users\humph\source\repos\MathMethodExercise\MathMethodExercise\bin\Debug\netcoreapp3.1\MathMethodExercise.runtimeconfig.dev.json
+C:\Users\humph\source\repos\MathMethodExercise\MathMethodExercise\bin\Debug\netcoreapp3.1\MathMethodExercise.dll
+C:\Users\humph\source\repos\MathMethodExercise\MathMethodExercise\bin\Debug\netcoreapp3.1\MathMethodExercise.pdb
+C:\Users\humph\source\repos\MathMethodExercise\MathMethodExercise\obj\Debug\netcoreapp3.1\MathMethodExercise.AssemblyInfoInputs.cache
+C:\Users\humph\source\repos\MathMethodExercise\MathMethodExercise\obj\Debug\netcoreapp3.1\MathMethodExercise.AssemblyInfo.cs
+C:\Users\humph\source\repos\MathMethodExercise\MathMethodExercise\obj\Debug\netcoreapp3.1\MathMethodExercise.csproj.CoreCompileInputs.cache
+C:\Users\humph\source\repos\MathMethodExercise\MathMethodExercise\obj\Debug\netcoreapp3.1\MathMethodExercise.dll
+C:\Users\humph\source\repos\MathMethodExercise\MathMethodExercise\obj\Debug\netcoreapp3.1\MathMethodExercise.pdb
+C:\Users\humph\source\repos\MathMethodExercise\MathMethodExercise\obj\Debug\netcoreapp3.1\MathMethodExercise.genruntimeconfig.cache
