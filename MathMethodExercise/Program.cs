@@ -7,11 +7,16 @@ namespace MathMethodExercise
     {
         static void Main(string[] args)
         {
+            AdditionCalculator(); 
+          
+        }
+
+        public static void AdditionCalculator() {
             Console.WriteLine("Lets have some fun with addition!");
 
             Console.WriteLine("Give me a number: ");
             var firstNumber = Int32.Parse(Console.ReadLine());
-    
+
 
             Console.WriteLine("Give me another: ");
             var secondNumber = Int32.Parse(Console.ReadLine());
@@ -24,16 +29,14 @@ namespace MathMethodExercise
             if (reply == "Yes") {
                 Console.WriteLine("Okay, what is the third number?");
                 var thirdNumber = Int32.Parse(Console.ReadLine());
-                Console.WriteLine("Your answer is " + sum(firstNumber, secondNumber, thirdNumber));
+                Console.WriteLine("Your answer is " + Sum(firstNumber, secondNumber, thirdNumber));
             } else {
-                Console.WriteLine("Your answer is " + sum(firstNumber, secondNumber));
+                Console.WriteLine("Your answer is " + Sum(firstNumber, secondNumber));
             }
-
-            
 
         }
 
-        public static int sum(params int[] list)
+        public static int Sum(params int[] list)
         {
             int sum = 0;
             for(int i = 0; i < list.Length; i++)
