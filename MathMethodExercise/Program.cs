@@ -44,9 +44,9 @@ namespace MathMethodExercise
             Console.WriteLine("");
 
             Console.WriteLine("Do we want to add a third number? Yes or No");
-            var reply = Console.ReadLine();
+            var reply = Console.ReadLine().ToLower();
 
-            if (reply == "Yes") {
+            if (reply == "yes") {
                 Console.WriteLine("Okay, what is the third number?");
                 var thirdNumber = Int32.Parse(Console.ReadLine());
                 Console.WriteLine("Your answer is " + Sum(firstNumber, secondNumber, thirdNumber));
@@ -63,16 +63,15 @@ namespace MathMethodExercise
             Console.WriteLine("Give me a number: ");
             var firstNumber = Int32.Parse(Console.ReadLine());
 
-
             Console.WriteLine("Give me another: ");
             var secondNumber = Int32.Parse(Console.ReadLine());
 
             Console.WriteLine("");
 
             Console.WriteLine("Do we want to add a third number? Yes or No");
-            var reply = Console.ReadLine();
+            var reply = Console.ReadLine().ToLower();
 
-            if (reply == "Yes")
+            if (reply == "yes")
             {
                 Console.WriteLine("Okay, what is the third number?");
                 var thirdNumber = Int32.Parse(Console.ReadLine());
