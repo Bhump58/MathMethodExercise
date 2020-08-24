@@ -10,3 +10,4 @@ C:\Users\humph\source\repos\MathMethodExercise\MathMethodExercise\obj\Debug\netc
 C:\Users\humph\source\repos\MathMethodExercise\MathMethodExercise\obj\Debug\netcoreapp3.1\MathMethodExercise.dll
 C:\Users\humph\source\repos\MathMethodExercise\MathMethodExercise\obj\Debug\netcoreapp3.1\MathMethodExercise.pdb
 C:\Users\humph\source\repos\MathMethodExercise\MathMethodExercise\obj\Debug\netcoreapp3.1\MathMethodExercise.genruntimeconfig.cache
+C:\Users\humph\source\repos\MathMethodExercise\MathMethodExercise\obj\Debug\netcoreapp3.1\MathMethodExercise.csprojAssemblyReference.cache

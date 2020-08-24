@@ -9,35 +9,48 @@ namespace MathMethodExercise
         {
             Console.WriteLine("Lets have some fun with addition!");
 
-            Console.WriteLine("Give me a number");
+            Console.WriteLine("Give me a number: ");
             var firstNumber = Int32.Parse(Console.ReadLine());
     
 
-            Console.WriteLine("Give me another");
+            Console.WriteLine("Give me another: ");
             var secondNumber = Int32.Parse(Console.ReadLine());
 
-            Console.WriteLine("Your answer is " + add(firstNumber, secondNumber));
+            Console.WriteLine("");
+
+            Console.WriteLine("Do we want to add a third number? Yes or No");
+            var reply = Console.ReadLine();
+
+            if (reply == "Yes") {
+                Console.WriteLine("Okay, what is the third number?");
+                var thirdNumber = Int32.Parse(Console.ReadLine());
+                Console.WriteLine("Your answer is " + sum(firstNumber, secondNumber, thirdNumber));
+            } else {
+                Console.WriteLine("Your answer is " + sum(firstNumber, secondNumber));
+            }
+
+            
 
         }
 
-        public static int add(int a, int b)
+        public static int sum(params int[] list)
         {
-            return a + b;
+            int sum = 0;
+            for(int i = 0; i < list.Length; i++)
+            {
+                sum = sum + list[i];
+            }
+            return sum;
         }
 
-        public static int add(int a, int b, int c)
+        public static int product(params int[] list)
         {
-            return a + b + c;
-        }
-
-        public static int add(int a, int b, int c, int d)
-        {
-            return a + b + c + d;
-        }
-
-        public static int add(int a, int b, int c, int d, int e)
-        {
-            return a + b + c + d + e;
+            int product = 0;
+            for(int i = 0; i < list.Length; i++)
+            {
+                product = product * list[i];
+            }
+            return product;
         }
     }
 }
